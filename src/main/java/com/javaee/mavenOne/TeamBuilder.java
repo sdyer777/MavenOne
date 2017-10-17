@@ -77,6 +77,7 @@ public class TeamBuilder {
 		List<List<Integer>> scComponents = tarjan.getSCComponents(nodeList);
 		/** Print the SCC list and the map of the original nodes to the SCCs **/
 		System.out.println("\nTarjan-calculated SCC's (scComponents) : \n" + scComponents);
+		System.out.println("sccCount = " + tarjan.sccCount);
 		System.out.println("\nSCC that each node is in (nodeSccMap) : \n" + Arrays.toString(tarjan.nodeSccMap));
 
 		/**

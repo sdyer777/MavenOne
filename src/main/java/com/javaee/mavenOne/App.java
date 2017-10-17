@@ -28,7 +28,7 @@ public class App {
 	 */
 	public static void main(String[] args) {
 		/** Set the scenario to test */
-		int scenario = 3;
+		int scenario = 9;
 
 		/**
 		 * Retrieve the scenario's path string array from the helper class function Scenarios.getPaths.
