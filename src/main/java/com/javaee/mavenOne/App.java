@@ -10,11 +10,12 @@ import java.util.Arrays;
  * that can be reached by all others
  * 
  * This is an exercise in graph manipulation and traversal. The code does the
- * following: - create graph node list from the "paths" parameter, the input to
- * the exercise - use Tarjan's algorithm to reduce cycles to Strongly Connected
- * Components (SCCs) - iterate over the SCCs to find sources and sinks - "to
- * all" and "from all" rely on their being exactly ONE source/sink, so if
- * exactly one is found, the number of nodes in that SCC is the desired result.
+ * following: 
+ * - create graph node list from the "paths" parameter, the input to the exercise 
+ * - use Tarjan's algorithm to reduce cycles tdfo Strongly Connected Components (SCCs) 
+ * - iterate over the SCCs to find sources and sinks 
+ * - "to all" and "from all" rely on their being exactly ONE source/sink, so if
+ *   exactly one is found, the number of nodes in that SCC is the desired result.
  *
  */
 public class App {
@@ -28,7 +29,7 @@ public class App {
 	 */
 	public static void main(String[] args) {
 		/** Set the scenario to test */
-		int scenario = 9;
+		int scenario = 12;
 
 		/**
 		 * Retrieve the scenario's path string array from the helper class function Scenarios.getPaths.

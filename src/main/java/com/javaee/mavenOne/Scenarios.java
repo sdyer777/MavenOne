@@ -1,5 +1,14 @@
 package com.javaee.mavenOne;
 
+/**
+ * List of scenarios for use in testing TeamBuilder.specialLocations.
+ * 
+ * This class encapsulates the definition of various path strings.  
+ * There is just the one static function to return the specified scenario.
+ * 
+ * @author stevendyer
+ *
+ */
 public class Scenarios {
 	/**
 	 * Helper function to organize test path string arrays. Set the scenario to
